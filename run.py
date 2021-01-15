@@ -13,6 +13,8 @@ def quote():
 	datenbank.close()
 
 if __name__== "__main__":
+	time.sleep(0.3)
 	sysinfo()
+	time.sleep(2)
 	quote()
-	time.sleep(10)
+	time.sleep(15)
