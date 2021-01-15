@@ -2,7 +2,7 @@ import time
 import random
 import platform
 
-def sysinfo():
+def sysinfo(): #Get local user name for the welcome message
 	uname=platform.uname()
 	print(f"Hallo {uname.node}! Schön, dass du hier bist! Das ist dein zufälliger Motivationsspruch: ")
 def quote():
