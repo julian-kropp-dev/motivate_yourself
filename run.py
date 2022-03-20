@@ -4,12 +4,12 @@ import platform
 import getpass
 
 def sysinfo(): #Get local user name for the welcome message
-	uname=getpass.getuser()
+	uname = getpass.getuser()
 	print(f"Hallo {uname}! Schön, dass du hier bist! Das ist dein zufälliger Motivationsspruch: ")
 def quote():
-	datenbank = open ("data.txt","r")
-	zeilen_einlesen = datenbank.readlines()
-	zitat = random.choice(zeilen_einlesen)
+	datenbank = open ("data.txt", "r")
+	zeilenEinlesen = datenbank.readlines()
+	zitat = random.choice(zeilenEinlesen)
 	print(zitat)
 	datenbank.close()
 
